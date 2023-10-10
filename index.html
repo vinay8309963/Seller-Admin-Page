@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+</head>
+<body>
+    <form id="form">
+        Price:<input type="number" id="price" />
+        Product Name:<input type="text" id="product_name" />
+        Category:<select id="category">
+            <option value="Electronics">Electronics</option>
+            <option value="Food Items">Food Items</option>
+            <option value="Skinkare Items">Skinkare Items</option>
+        </select>
+
+        <button type="submit">Add Product</button>
+    </form>
+
+    <h2>Products:</h2>
+    <div id="electronics"><h3>Electronics</h3></div>
+    <div id="food_items"><h3>Food Items</h3></div>
+    <div id="skinkare_items"><h3>Skinkare Items</h3></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js" integrity="sha512-emSwuKiMyYedRwflbZB2ghzX8Cw8fmNVgZ6yQNNXXagFzFOaQmbvQ1vmDkddHjm5AITcBIZfC7k4ShQSjgPAmQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
